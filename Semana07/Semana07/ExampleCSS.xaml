@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana07.ExampleCSS">
+    <ContentPage.Resources>
+        <StyleSheetExtension Source="Style.css"/>
+     </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="EndAndExpand">
+            <Label Text="Este es un texto simple" />
+            <Label x:Name="result" Text="Este es un texto con css" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
